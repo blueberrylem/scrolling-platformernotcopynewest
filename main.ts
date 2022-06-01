@@ -219,9 +219,7 @@ forever(function () {
     textSprite.setPosition(scene.cameraProperty(CameraProperty.Left) + 30, scene.cameraProperty(CameraProperty.Top) + 50)
 })
 forever(function () {
-    if (controller.down.isPressed()) {
-    	
-    }
+	
 })
 forever(function () {
 	
