@@ -118,7 +118,7 @@ controller.down.onEvent(ControllerButtonEvent.Released, function () {
         `, SpriteKind.Player)
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile16`, function (sprite, location) {
-    game.over(true)
+    tiles.setCurrentTilemap(tilemap`level6`)
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile8`, function (sprite, location) {
     game.over(false)
